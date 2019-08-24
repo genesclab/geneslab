@@ -39,7 +39,7 @@
               :to="item.to"
               exact-active-class="is-active"
             >
-              <b-icon :icon="item.icon" /> {{ item.title }}
+              <b-icon :icon="item.icon" /> {{ item.title }}{{key}}
             </nuxt-link>
           </li>
         </ul>
