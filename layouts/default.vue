@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav
-      class="navbar header has-shadow is-primary"
+      class="navbar header has-shadow is-twitter"
       role="navigation"
       aria-label="main navigation"
     >
@@ -26,9 +26,9 @@
     </nav>
 
     <section class="main-content columns">
-      <aside class="column is-2 section">
+      <aside class="column is-4 section">
         <p class="menu-label is-hidden-touch">
-          General
+          Genesclab
         </p>
         <ul class="menu-list">
           <li
@@ -45,7 +45,7 @@
         </ul>
       </aside>
 
-      <div class="container column is-10">
+      <div class="container column is-8">
         <nuxt />
       </div>
     </section>
